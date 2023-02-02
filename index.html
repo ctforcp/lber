@@ -1,14 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>lber.com</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		html {
+			height: 100%;
+			background-color: #21D4FD;
+			background-image: linear-gradient(45deg, #21D4FD 0%, #B721FF 100%);
+		}
+		a {
+			text-decoration: none;
+		}
+		.info {
+			padding: 60px 0;
+			text-align: center;
+		}
+		.info ,.info a {
+			color: #fff;
+		}
+		
+		.info .domain {
+			font-size: 18px;
+			border: 1px solid #fff;
+			padding: 5px 6px;
+			border-radius: 4px;
+			display: inline-block;
+		}
+		.info .tips {
+			display: inline-block;
+			font-weight: bold;
+		}
+		.info .contact {
+			margin-top: 6px;
+		}
+		.info .contact a {
+			border-bottom: 1px solid #fff;
+		}
+	</style>
 </head>
 <body>
-	<div style="text-align: center;">
-		<p>for sale!</p>
-		<p>ctforcp@163.com</p>
+	<div class="info">
+		<h3 class="domain">lber.com</h3>
+		<p class="tips">for sale!</p>
+		<p class="contact"><a data-href="mailto:ctforcp@163.com">ctforcp@163.com</a></p>
 	</div>
 </body>
 </html>
